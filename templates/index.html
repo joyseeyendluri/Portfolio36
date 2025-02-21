@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Website Title -->
+    <title>Joysee - Student</title>
+    <!-- Bootstrap -->
+    <link href="{{url_for('static',filename='assets/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+	<!-- Font-Awesome -->
+    <link href="{{url_for('static',filename='assets/font-awesome/css/font-awesome.min.css') }}" rel="stylesheet">
+	<!-- Lightbox -->
+	<link href="{{url_for('static',filename='assets/lightbox/css/lightbox.css') }}" rel="stylesheet">
+    <!-- Text Rotator-->
+	<link href="{{url_for('static',filename='assets/textrotator/simpletextrotator.css') }}" rel="stylesheet">
+	<!-- FlexSlider -->
+    <link href="{{url_for('static',filename='assets/flexslider/flexslider.css') }}" rel="stylesheet">
+	<!-- Theme Style -->
+    <link href="{{url_for('static',filename='css/style.css') }}" rel="stylesheet">
+	<!-- Animations -->
+    <link href="{{url_for('static',filename='css/animate.css') }}" rel="stylesheet">
+	<!-- Custom Favicon -->
+	<link href="{{url_for('static',filename='img/favicon.ico') }}" rel="shortcut icon" type="image/x-icon" /> 
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="assets/html5shiv/html5shiv.js"></script>
+    <script src="assets/respond/respond.min.js"></script>
+    <![endif]-->
+  </head>
+    <body id="top">
+
+      <!-- ****************************** Preloader ************************** -->
+      <div id="preloader"></div>
+
+
+	  	<!-- ==========================
+        HEADER SECTION 
+        =========================== -->
+        <header id="home">
+		    <!-- creative menu -->
+            <div class="container-fluid">
+              <div class="row">
+                <div class="menu-wrap">
+				<nav class="menu">
+				    <!-- Menu Links -->
+					<div class="icon-list">
+            <a href="#home"><i class="fa fa-fw fa-home"></i><span>Home</span></a>
+            <a href="#about"><i class="fa fa-fw fa-user"></i><span>About</span></a>
+            <a href="#skills"><i class="fa fa-fw fa-code"></i><span>Skills</span></a>
+            <a href="#education"><i class="fa fa-fw fa-graduation-cap"></i><span>Education</span></a>
+            <a href="#projects"><i class="fa fa-fw fa-laptop"></i><span>Projects</span></a>
+            <a href="#contact"><i class="fa fa-fw fa-envelope"></i><span>Contact</span></a>
+        </div>
+      </nav>	
+			    </div>
+			    <button class="menu-button" id="open-button"></button><!-- menu button -->
+              </div><!--/row-->
+            </div><!--/container-->
+		  <!-- Header Image -->
+          <section class="hero" id="hero">
+            <div class="container">
+			  <!-- Slider Button (don't edit!)-->
+              <div class="row">
+                <div class="col-md-12 text-right navicon">
+                  <a id="nav-toggle" class="nav_slide_button" href="index.html#"><span></span></a>
+                </div>
+              </div>
+			  <!-- HEADER HEADLINE -->
+              <div class="row">
+                <div class="col-md-8 col-md-offset-1 inner">
+                  <h1 class="animated fadeInDown">
+                    J<span style="color:#E04343;">o</span>ysee<br/>
+                    <span>Y<span style="color:#FFE800">e</span>ndluri</span>
+                  </h1><!-- Title -->
+                  <h3 class="animated fadeInUp delay-05s"><span class="rotate">Student</span></h3><!-- Text Rotator -->
+                </div>
+              </div>
+			  <!-- Learn More Button -->
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3 text-center">
+                  <a href="#about" class="scrollto wow fadeInUp delay-5s ">
+			            <p>SEE MORE</p>
+			            <p class="scrollto--arrow"><img src="{{url_for('static',filename='img/scroll-down.png') }}" alt="scroll down arrow"></p>
+			        </a>
+                </div>
+              </div>
+            </div>
+          </section>
+		  <!-- Header Image End -->
+        </header>
+		<!-- ==========================
+        HEADER SECTION END  
+        =========================== -->
+		
+		
+		
+		
+		<!-- ==========================
+        ABOUT SECTION  
+        =========================== -->
+        <section class="intro text-center section-padding color-bg" id="about">
+          <div class="container">
+		    <!-- WELCOME TEXT -->
+            <div class="row">
+              <div class="col-md-8 col-md-offset-2 wp1">
+                <h1 class="arrow">A little <span>about</span> me</h1><!-- Headline -->
+				<!-- about / welcome text -->
+                <p>I am a BSc Data Science student at Krishna University with a passion for data analysis and machine learning. My academic journey has equipped me with strong analytical skills and practical experience in various data science tools and technologies. I have hands-on experience in chatbot development and am eager to apply my skills to real-world problems.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+       
+<!-- Skills Section -->
+<section class="features text-center section-padding" id="skills">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1 class="arrow">Technical <span>Skills</span></h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="services">
+          <div class="col-md-4 wp2 item">
+            <div class="icon">
+              <i class="fa fa-code"></i>
+            </div>
+            <h2>Programming</h2>
+            <p>Python, SQL, HTML/CSS<br>Data Structures & Algorithms</p>
+          </div>
+          <div class="col-md-4 wp2 item delay-05s">
+            <div class="icon">
+              <i class="fa fa-database"></i>
+            </div>
+            <h2>Data Science</h2>
+            <p>Machine Learning, Data Analysis<br>Pandas, NumPy, Scikit-learn</p>
+          </div>
+          <div class="col-md-4 wp2 item delay-1s">
+            <div class="icon">
+              <i class="fa fa-cogs"></i>
+            </div>
+            <h2>Tools</h2>
+            <p>Git, Jupyter Notebook<br>VS Code, Rasa Framework</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Education Section -->
+<section class="education-section text-center section-padding" id="education">
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1 class="arrow">Education</h1>
+        </div>
+    </div>
+    <div class="row education-timeline">
+        <div class="col-md-12">
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="date">2022 - Present</div>
+                        <h3>Krishna University</h3>
+                        <h4>BSc in Data Science</h4>
+                        <p>Current CGPA: 72%</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="date">2020 - 2022</div>
+                        <h3>NRI Junior College</h3>
+                        <h4>Intermediate (MPC)</h4>
+                        <p>Score: 56%</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="date">2020</div>
+                        <h3>Z P H S High School</h3>
+                        <h4>SSC</h4>
+                        <p>Score: 8.8</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+<br>
+
+<!--projects-->
+<section class="features text-center section-padding" id="projects">
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1 class="arrow">Projects</h1>
+        </div>
+    </div>
+    <div class="row project-list">
+        <div class="col-md-12">
+            <!-- Project 1 -->
+            <div class="project-item">
+                <div class="project-image">
+                      <img src="{{url_for('static',filename='img/project1.jpg.png') }}" alt="Cupcake Magic">
+                </div>
+                <div class="project-content">
+                    <h3>Cupcake Magic</h3>
+                    <p>Cupcake Magic is a web application designed to make baking delicious cupcakes a breeze.  Users can browse a visually appealing gallery of various cupcake flavors.  Clicking on a cupcake image reveals the corresponding recipe, complete with ingredients and step-by-step baking instructions.  This project combines front-end design with interactive elements to provide a user-friendly baking experience..</p>
+                    <a href="https://joyseeyendluri.github.io/image/" class="project-link">View Project</a>
+                </div>
+            </div>
+            <!-- Project 2 -->
+            <div class="project-item reverse">
+                <div class="project-image">
+                    <img src="{{url_for('static',filename='img/project2.jpg.png') }}" alt="Order form">
+                </div>
+                <div class="project-content">
+                    <h3>Order Form</h3>
+                    <p>Beyond browsing recipes, Cupcake Magic now allows users to order their favorite cupcakes directly.  The integrated order form simplifies the process, enabling customers to specify quantities, flavors, and any special requests.  This feature transforms Cupcake Magic from a recipe resource into a convenient online bakery..</p>
+                    <a href="https://joyseeyendluri.github.io/orderform/" class="project-link">View Project</a>
+                </div>
+            </div>
+            <!-- Project 3 -->
+            <div class="project-item">
+                <div class="project-image">
+                    <img src="{{url_for('static',filename='img/project3.jpg.png') }}" alt="Data Analysis Dashboard">
+                </div>
+                <div class="project-content">
+                    <h3>Online Booking Movie Tickets</h3>
+                    <p>Fast Booking Movie Tickets simplifies online movie reservations.  The application displays a selection of available movies, allowing users to easily explore showtimes and seating options.  Users can select their preferred seats from an interactive seating chart and securely complete their ticket purchase.  Fast Booking Movie Tickets aims to eliminate the hassle of traditional booking methods and offer a convenient way to secure movie tickets..</p>
+                    <a href="https://joyseeyendluri.github.io/movie/ " class="project-link">View Project</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+<!--courses-->
+ <!-- Courses Section  
+ <section class="text-center section-padding" id="courses">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-12">
+              <h1 class="arrow">My <span>Courses</span></h1>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-md-12">
+              <div id="coursesSlider" class="flexslider">
+                  <ul class="slides">
+                      <li><img src="img/course1.jpg" alt="Course 1"></li>
+                      <li><img src="img/course2.jpg" alt="Course 2"></li>
+                      <li><img src="img/course3.jpg" alt="Course 3"></li>
+                      <li><img src="img/course4.jpg" alt="Course 4"></li>
+                      <li><img src="img/course5.jpg" alt="Course 5"></li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>-->
+    <script>
+      $(document).ready(function() {
+          $('#coursesSlider').flexslider({
+              animation: "slide", // Slide effect (can also use "fade")
+              controlNav: true,   // Show navigation dots (change to false to hide)
+              directionNav: true, // Show next/prev arrows
+              slideshow: true,    // Enable autoplay
+              slideshowSpeed: 3000, // Time between slides (3 seconds)
+              animationSpeed: 600,  // Transition speed (600ms)
+              pauseOnHover: true   // Pause autoplay when hovered
+          });
+      });
+  </script>
+  <!-- Include jQuery (required for Flexslider) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- Include Flexslider JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.7.2/jquery.flexslider-min.js"></script>
+
+  
+		
+		<!-- ==========================
+        CONTACT SECTION
+        =========================== -->
+        <section class="text-center section-padding contact-wrap" id="contact">
+		  <!-- To Top Button -->
+          <a href="index.html#top" class="up-btn"><i class="fa fa-chevron-up"></i></a>
+          <div class="container">
+		    <!-- Headline -->
+            <div class="row">
+              <div class="col-md-12">
+                <h1 class="arrow">Drop <span>me</span> a line</h1>
+              </div>
+            </div>
+            <div class="row contact-details">
+			  <!-- Adress Box -->
+              <div class="col-md-4">
+                <div class="dark-box box-hover">
+                  <h2><i class="fa fa-map-marker"></i><span>Address</span></h2>
+                  <p>13-71 k.tadepalli, Vijayawada AP</p>
+                </div>
+              </div>
+			  <!-- Phone Number Box -->
+              <div class="col-md-4">
+                <div class="dark-box box-hover">
+                  <h2><i class="fa fa-mobile"></i><span>Phone</span></h2>
+                  <p>+19 960 344 ****</p>
+                </div>
+              </div>
+			  <!-- E-Mail Box -->
+              <div class="col-md-4">
+                <div class="dark-box box-hover">
+                  <h2><i class="fa fa-paper-plane"></i><span>Email</span></h2>
+                  <p><a href="mailto:joyseeyendluri">joyseeyendluri11888.com</a></p>
+                </div>
+              </div>
+            </div>
+			<div class="row">
+			  <!-- Google Maps (Change your Settings below) -->
+			  <div class="col-md-6">
+			    <div id="googlemaps"></div>
+			  </div>
+			  <!-- Contact Form -->
+			  <div class="col-md-6 contact">
+			     <form role="form">
+				            <!-- Name -->
+                            <div class="row">
+                                <div class="col-md-6">
+								    <!-- E-Mail -->
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Your name">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+								    <!-- Phone Number -->
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" placeholder="Email address">
+                                    </div>
+                                </div>
+                            </div>
+							<!-- Message Area -->
+                            <div class="form-group">
+                                <textarea class="form-control" placeholder="Write you message here..." style="height:232px;"></textarea>
+                            </div>
+							<!-- Subtmit Button -->
+                            <button type="submit" class="btn btn-send">
+                                Send message
+                            </button>
+                        </form>
+			  </div>
+			</div>
+			<br>
+			<!-- Social Buttons - use font-awesome, past in what you want -->
+            <div class="row">
+              <div class="col-md-12">
+                <ul class="social-buttons">
+                  <li><a href="index.html#" class="social-btn"><i class="fa fa-dribbble"></i></a></li><!-- dribble -->
+                  <li><a href="index.html#" class="social-btn"><i class="fa fa-twitter"></i></a></li><!-- twitter -->
+                  <li><a href="index.html#" class="social-btn"><i class="fa fa-facebook"></i></a></li><!-- facebook -->
+				   </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+		<!-- ==========================
+        CONTACT SECTION END
+        =========================== -->
+		
+		
+		
+		<!-- ==========================
+        FOOTER SECTION
+        =========================== -->
+        <footer>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12 text-center">
+                <p>@ All Rights Reserved. &copy; 2025 <a href=""></a>
+              </div>
+            </div>
+          </div>
+        </footer>
+		<!-- ==========================
+        FOOTER SECTION END
+        =========================== -->		
+		
+		
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- SmoothScroll -->           
+    <script type="text/javascript" src="{{url_for('static',filename='assets/smoothscroll/smoothscroll.js') }}"></script>
+    <!-- Bootstrap -->
+    <script src="{{url_for('static',filename='assets/bootstrap/js/bootstrap.min.js') }}"></script>
+	<!-- Waypoints -->
+	<script src="{{url_for('static',filename='js/waypoints.min.js') }}"></script>
+    <!-- classie.js -->
+	<script src="{{url_for('static',filename='js/classie.js') }}"></script>
+    <!-- FlexSlider -->
+    <script src="{{url_for('static',filename='assets/flexslider/jquery.flexslider.js') }}"></script>
+	<!-- Modernizr -->
+    <script src="{{url_for('static',filename='js/modernizr.js') }}"></script>
+	<!-- Text Rotator -->
+	<script src="{{url_for('static',filename='assets/textrotator/jquery.simple-text-rotator.js') }}"></script>
+	<!-- Lightbox.js -->
+    <script src="{{url_for('static',filename='assets/lightbox/js/lightbox.min.js') }}"></script>
+    <!-- Google Maps --> 
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDeKBBPJTG3v5w3cNPAgM6ZsJiPyL1mP_o&amp;sensor=false"></script>
+	<!-- Theme JavaScript Core -->
+	<script src="{{url_for('static',filename='js/main.js') }}"></script>
+	<script src="{{url_for('static',filename='js/script.js') }}"></script>
+
+	<!-- GOOGLE MAPS DATA -->
+    <script type="text/javascript">
+    // When the window has finished loading create our google map below
+        google.maps.event.addDomListener(window, 'load', init);
+    
+        function init() {
+            // Basic options for a simple Google Map
+            // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
+            var mapOptions = {
+                // How zoomed in you want the map to start at (always required)
+                zoom: 15,
+                
+                scrollwheel: false,
+
+                // The latitude and longitude to center the map (always required)
+                center: new google.maps.LatLng(40.68961985411178, -74.01618003845215), // New York 
+
+                // How you would like to style the map. 
+                // This is where you would paste any style found on Snazzy Maps.
+                styles: [	{		featureType:'water',		stylers:[{color:'#F2F2F2'},{visibility:'on'}]	},{		featureType:'landscape',		stylers:[{color:'#FFFFFF'}]	},{		featureType:'road',		stylers:[{saturation:-100},{lightness:45}]	},{		featureType:'road.highway',		stylers:[{visibility:'simplified'}]	},{		featureType:'road.arterial',		elementType:'labels.icon',		stylers:[{visibility:'off'}]	},{		featureType:'administrative',		elementType:'labels.text.fill',		stylers:[{color:'#ADADAD'}]	},{		featureType:'transit',		stylers:[{visibility:'off'}]	},{		featureType:'poi',		stylers:[{visibility:'off'}]	}]
+            };
+
+            // Get the HTML DOM element that will contain your map 
+            // We are using a div with id="map" seen below in the <body>
+            var mapElement = document.getElementById('googlemaps');
+
+            // Create the Google Map using out element and options defined above
+            var map = new google.maps.Map(mapElement, mapOptions);
+        }
+	
+    </script>
+	
+	<!-- TEXT ROTATOR SETTINGS -->
+    <script type="text/javascript">
+    $(".rotate").textrotator({
+      animation: "fade", // You can pick the way it animates when rotating through words. Options are dissolve (default), fade, flip, flipUp, flipCube, flipCubeUp and spin.
+      separator: ",", // If you don't want commas to be the separator, you can define a new separator (|, &, * etc.) by yourself using this field.
+      speed: 2000 // How many milliseconds until the next word show.
+    });
+    </script>
+	
+    </body>
+</html>
